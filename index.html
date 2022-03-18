@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      height: 100vh;
+      margin: 0%;
+      padding: 0;
+    }
+    nav {
+      height: 72px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ccc;
+      font-size: 20px;
+    }
+    form {
+      height: 210px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 300px;
+      margin: 50px auto;
+    }
+    form input {
+      padding: 11px;
+    }
+    form input[type="button"] {
+      width: 150px;
+    }
+    .image {
+      margin: 20px auto;
+      width: fit-content;
+    }
+    img {
+      height: 500px;
+      margin: 20px auto;
+      display: none;
+    }
+    @media (max-width: 767px) {
+      img {
+        height: 380px;
+      }
+    }
+  </style>
+  <body>
+    <nav>haran yös sınavı sonuçları</nav>
+    <form action="">
+      <input type="id" name="id" id="" placeholder="kimlik numarası" />
+      <input type="password" name="id" id="" placeholder="password" />
+      <input type="button" value="check" />
+    </form>
+    <div class="image">
+      <img src="stupid.jpeg" alt="" />
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
